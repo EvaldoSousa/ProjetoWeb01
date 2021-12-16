@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="jogo.css">
+    <link rel="stylesheet" href="/assets/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+
+    <title>Jogo</title>
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    
+          <a class="navbar-brand" href="/index.html"><img class="iconMundo" src="assets/img/no-mundo-todo.png" alt=""></a>
+    
+    
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    
+            <span class="navbar-toggler-icon"></span>
+    
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+            <ul class="navbar-nav mr-auto">
+    
+              <li class="nav-item active">
+                <a class="nav-link" href="/index.html">Inicio <span class="sr-only">(atual)</span></a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </nav>
+      </header>
+
+    <div class="wrapper">
+        <div class="timer">
+             <span></span>    
+        </div>
+        <div class="gameover">GAME OVER</div>
+        <input class="input-circle input-circle1" type="radio" id="circle1" >
+       <input class="input-circle input-circle2" type="radio" id="circle2" >
+       <input class="input-circle input-circle3" type="radio" id="circle3" >
+       <input class="input-circle input-circle4" type="radio" id="circle4" >
+       <input class="input-circle input-circle5" type="radio" id="circle5" >
+       <input class="input-circle input-circle6" type="radio" id="circle6" >
+        
+        <label for="circle1" class="pajaro pajaro1"><span></span></label>
+        <label for="circle2" class="pajaro pajaro2"><span></span></label>
+        <label for="circle3" class="pajaro pajaro3"><span></span></label>
+        <label for="circle4" class="pajaro pajaro4"><span></span></label>
+        <label for="circle5" class="pajaro pajaro5"><span></span></label>
+        <label for="circle6" class="pajaro pajaro6"><span></span></label>
+        <div class="sum">Pontuação:</div>
+    
+      </div>
+</body>
+</html>
