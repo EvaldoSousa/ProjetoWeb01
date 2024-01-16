@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto Web I - Avaliação Final - Web I v1.0!  </h1>
+<h1 align="center"> Projeto Web I v1.0!  </h1>
 
 # ProjetoWeb
 Este é o projeto final desenvolvido por Evaldo Sousa para fins de estudo. O objetivo do projeto foi criar um website simples, utilizando HTML, CSS e JavaScript.
